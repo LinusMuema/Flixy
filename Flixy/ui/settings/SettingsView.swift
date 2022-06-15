@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SettingsView.swift
 //  Flixy
 //
 //  Created by Linus Muema on 15/06/2022.
@@ -7,23 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SettingsView: View {
     var body: some View {
-        Text("Hello, muema!")
-                .padding()
+        Text("Hello, settings!")
     }
 }
 
-class ContentView_Previews: PreviewProvider {
+class SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SettingsView()
     }
 
     #if DEBUG
     @objc class func injected() {
         let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
         windowScene?.windows.first?.rootViewController =
-                UIHostingController(rootView: ContentView_Previews.previews)
+                UIHostingController(rootView: SettingsView_Previews.previews)
     }
     #endif
 }

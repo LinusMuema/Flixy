@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003df6c7-42fd-4c3e-ad72-4b1e99a50267" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flixy.xcodeproj/project.xcworkspace/xcuserdata/moose.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/header.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/header.imageset/header@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/header.imageset/header@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/header.imageset/header@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/logo.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/logo.imageset/logo@1x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/logo.imageset/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/logo.imageset/logo@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/Launch Screen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flixy/ui/favorites/FavoritesView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flixy/ui/home/HomeView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flixy/ui/settings/SettingsView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flixy.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy.xcodeproj/xcuserdata/moose.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy.xcodeproj/xcuserdata/moose.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ContentView.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy/FlixyApp.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/FlixyApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/ContentView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/FlixyApp.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/FlixyApp.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/Launch Screen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/Launch Screen.storyboard" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_0D0CBB30-8D90-4E7D-849F-1D60C08E9625" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Swift UI" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -34,24 +34,28 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Abm2seyFMXSt9v1wu1w3MRS3Y8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Flixy" type="AppleRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flixy" TARGET_NAME="Flixy" CONFIG_NAME="Debug" SCHEME_NAME="Flixy" IS_LOCATION_SIMULATION_ALLOWED="true" APPLICATION_LANGUAGE="IDELaunchSchemeLanguageUseSystemLanguage" APPLICATION_REGION="" RUN_TARGET_PROJECT_NAME="Flixy" RUN_TARGET_NAME="Flixy" MAKE_ACTIVE="TRUE" SHOULD_DEBUG_EXTENSIONS="false">
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
@@ -71,11 +75,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655286462982</updated>
-      <workItem from="1655286470902" duration="659000" />
+      <workItem from="1655286470902" duration="1600000" />
+      <workItem from="1655288384346" duration="50000" />
+      <workItem from="1655288562266" duration="288000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
