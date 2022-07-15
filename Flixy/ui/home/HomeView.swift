@@ -8,23 +8,20 @@
 import SwiftUI
 
 struct HomeView: View {
+
+    @StateObject private var viewModel = ViewModel()
+
     var body: some View {
         VStack {
             Text("Hello, home!")
-        }.ignoresSafeArea()
+        }
+            .ignoresSafeArea()
+            .onAppear {viewModel.getShowing()}
     }
 }
 
-class HomeView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
     }
-
-    #if DEBUG
-    @objc class func injected() {
-        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
-        windowScene?.windows.first?.rootViewController =
-                UIHostingController(rootView: HomeView_Previews.previews)
-    }
-    #endif
 }

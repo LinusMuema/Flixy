@@ -13,16 +13,8 @@ struct SettingsView: View {
     }
 }
 
-class SettingsView_Previews: PreviewProvider {
+struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
     }
-
-    #if DEBUG
-    @objc class func injected() {
-        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
-        windowScene?.windows.first?.rootViewController =
-                UIHostingController(rootView: SettingsView_Previews.previews)
-    }
-    #endif
 }

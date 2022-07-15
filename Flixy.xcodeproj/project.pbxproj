@@ -10,6 +10,8 @@
 		6342652DB3A05297664965B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634262A34B5C94B4FA1B5CC7 /* ContentView.swift */; };
 		634266FF070FFB793BFFBDC7 /* FlixyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634266C5D3916482A2A9EC2A /* FlixyApp.swift */; };
 		63426E220A3BC18FD8410368 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634266CD2E9CC4B8E2964003 /* Launch Screen.storyboard */; };
+		BC03E07D287F1CC6001B5BD2 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03E07C287F1CC6001B5BD2 /* ImageView.swift */; };
+		BC03E082287F22E8001B5BD2 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC03E081287F22E8001B5BD2 /* UIScreen.swift */; };
 		BC52BFF22859DACA000AAF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC52BFF12859DACA000AAF25 /* Assets.xcassets */; };
 		BC52BFF52859DACA000AAF25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC52BFF42859DACA000AAF25 /* Preview Assets.xcassets */; };
 		BC52BFFF2859DACB000AAF25 /* FlixyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC52BFFE2859DACB000AAF25 /* FlixyTests.swift */; };
@@ -18,6 +20,9 @@
 		BC8DDD692859EA0F000EEC80 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD682859EA0F000EEC80 /* HomeView.swift */; };
 		BC8DDD6B2859EA30000EEC80 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD6A2859EA30000EEC80 /* FavoritesView.swift */; };
 		BC8DDD6E2859EA69000EEC80 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD6D2859EA69000EEC80 /* SettingsView.swift */; };
+		BC8DDD70285A035E000EEC80 /* MoviesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD6F285A035E000EEC80 /* MoviesResponse.swift */; };
+		BC8DDD72285A0561000EEC80 /* HomeViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD71285A0561000EEC80 /* HomeViewmodel.swift */; };
+		BC8DDD74285A092A000EEC80 /* ShowingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8DDD73285A092A000EEC80 /* ShowingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,8 @@
 		634262A34B5C94B4FA1B5CC7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		634266C5D3916482A2A9EC2A /* FlixyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlixyApp.swift; sourceTree = "<group>"; };
 		634266CD2E9CC4B8E2964003 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		BC03E07C287F1CC6001B5BD2 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		BC03E081287F22E8001B5BD2 /* UIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		BC52BFEA2859DAC9000AAF25 /* Flixy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC52BFF12859DACA000AAF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC52BFF42859DACA000AAF25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 		BC8DDD682859EA0F000EEC80 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BC8DDD6A2859EA30000EEC80 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		BC8DDD6D2859EA69000EEC80 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BC8DDD6F285A035E000EEC80 /* MoviesResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesResponse.swift; sourceTree = "<group>"; };
+		BC8DDD71285A0561000EEC80 /* HomeViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewmodel.swift; sourceTree = "<group>"; };
+		BC8DDD73285A092A000EEC80 /* ShowingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,7 @@
 		634262B6BED14DA07DB30B3E /* models */ = {
 			isa = PBXGroup;
 			children = (
+				BC8DDD6F285A035E000EEC80 /* MoviesResponse.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -89,6 +100,8 @@
 		63426452583AA6CE6C30D161 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				BC03E080287F22D1001B5BD2 /* extensions */,
+				BC03E07B287F1CA4001B5BD2 /* components */,
 				634266C5D3916482A2A9EC2A /* FlixyApp.swift */,
 				634262A34B5C94B4FA1B5CC7 /* ContentView.swift */,
 				634266CD2E9CC4B8E2964003 /* Launch Screen.storyboard */,
@@ -111,8 +124,26 @@
 			isa = PBXGroup;
 			children = (
 				BC8DDD682859EA0F000EEC80 /* HomeView.swift */,
+				BC8DDD71285A0561000EEC80 /* HomeViewmodel.swift */,
+				BC8DDD73285A092A000EEC80 /* ShowingView.swift */,
 			);
 			path = home;
+			sourceTree = "<group>";
+		};
+		BC03E07B287F1CA4001B5BD2 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				BC03E07C287F1CC6001B5BD2 /* ImageView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		BC03E080287F22D1001B5BD2 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BC03E081287F22E8001B5BD2 /* UIScreen.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 		BC52BFE12859DAC9000AAF25 = {
@@ -315,6 +346,11 @@
 				BC8DDD692859EA0F000EEC80 /* HomeView.swift in Sources */,
 				6342652DB3A05297664965B0 /* ContentView.swift in Sources */,
 				634266FF070FFB793BFFBDC7 /* FlixyApp.swift in Sources */,
+				BC8DDD70285A035E000EEC80 /* MoviesResponse.swift in Sources */,
+				BC03E07D287F1CC6001B5BD2 /* ImageView.swift in Sources */,
+				BC8DDD74285A092A000EEC80 /* ShowingView.swift in Sources */,
+				BC8DDD72285A0561000EEC80 /* HomeViewmodel.swift in Sources */,
+				BC03E082287F22E8001B5BD2 /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

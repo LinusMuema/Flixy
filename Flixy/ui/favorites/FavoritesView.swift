@@ -13,16 +13,9 @@ struct FavoritesView: View {
     }
 }
 
-class FavoritesView_Previews: PreviewProvider {
+struct FavoritesView_Previews: PreviewProvider {
     static var previews: some View {
         FavoritesView()
     }
-
-    #if DEBUG
-    @objc class func injected() {
-        let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
-        windowScene?.windows.first?.rootViewController =
-                UIHostingController(rootView: FavoritesView_Previews.previews)
-    }
-    #endif
 }
+ 
