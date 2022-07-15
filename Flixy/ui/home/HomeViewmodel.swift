@@ -11,6 +11,10 @@ extension HomeView {
     @MainActor class ViewModel: ObservableObject {
         @Published var showing: [Movie] = []
 
+        init() {
+            getShowing()
+        }
+
         func getShowing() {
             guard let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a975ca649ea8e1af5e8aa1017ed860bb&language=en-US&page=1") else {
                 fatalError("URL is not correct")
@@ -34,6 +38,7 @@ extension HomeView {
                         do {
                             let showingResponse = try JSONDecoder().decode(MoviesResponse.self, from: data)
                             self.showing = showingResponse.results
+                            print("showing: \(self.showing)")
                         } catch let error {
                             print("Error decoding: ", error)
                         }

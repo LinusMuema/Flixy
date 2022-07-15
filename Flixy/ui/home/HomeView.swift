@@ -9,14 +9,27 @@ import SwiftUI
 
 struct HomeView: View {
 
+    @State private var index = 0
     @StateObject private var viewModel = ViewModel()
 
+    
+
     var body: some View {
-        VStack {
-            Text("Hello, home!")
+        let showing: [Movie] = viewModel.showing
+        VStack{
+            if (showing.isEmpty){
+                // show a loading animation
+                Text("Loading...")
+            } else {
+                TabView(selection: $index) {
+                    // loop through the showing array
+                    ForEach(0..<showing.count, id: \.self) { i in
+                        ShowingView(movie: showing[i])
+                    }
+                }
+                        .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
+            }
         }
-            .ignoresSafeArea()
-            .onAppear {viewModel.getShowing()}
     }
 }
 

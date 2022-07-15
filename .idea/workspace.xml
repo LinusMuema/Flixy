@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="003df6c7-42fd-4c3e-ad72-4b1e99a50267" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Flixy/models/MoviesResponse.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/ui/home/HomeViewmodel.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flixy/ui/home/ShowingView.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flixy/ui/ContentView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/ContentView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/models/MoviesResponse.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/models/MoviesResponse.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Flixy/ui/home/HomeView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/home/HomeView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/ui/home/HomeViewmodel.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/home/HomeViewmodel.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flixy/ui/home/ShowingView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Flixy/ui/home/ShowingView.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RunManager">
@@ -80,6 +78,8 @@
       <workItem from="1655288562266" duration="6750000" />
       <workItem from="1655381157608" duration="2409000" />
       <workItem from="1655800225494" duration="2148000" />
+      <workItem from="1657877136671" duration="21000" />
+      <workItem from="1657877180595" duration="3214000" />
     </task>
     <servers />
   </component>
